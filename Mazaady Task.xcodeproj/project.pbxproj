@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		452BA0C02B51AE5D00C4CCB9 /* Category+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BA0BF2B51AE5D00C4CCB9 /* Category+Extenstion.swift */; };
+		452BA0C32B51E04C00C4CCB9 /* BorderLabelUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BA0C22B51E04B00C4CCB9 /* BorderLabelUIView.swift */; };
+		452BA0C52B51E3F900C4CCB9 /* SwiftMenu+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BA0C42B51E3F900C4CCB9 /* SwiftMenu+Extension.swift */; };
+		452BA0C72B51F40C00C4CCB9 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BA0C62B51F40C00C4CCB9 /* UIViewController+Extension.swift */; };
+		452BA0C92B52E97900C4CCB9 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BA0C82B52E97900C4CCB9 /* String+Extension.swift */; };
+		452BA0CB2B532EE400C4CCB9 /* Option+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BA0CA2B532EE400C4CCB9 /* Option+Extension.swift */; };
+		452BA0D32B53422400C4CCB9 /* Mazaady_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BA0D22B53422400C4CCB9 /* Mazaady_TaskTests.swift */; };
+		452BA0DC2B5346F600C4CCB9 /* Mazaady_UnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BA0DB2B5346F600C4CCB9 /* Mazaady_UnitTest.swift */; };
+		45CB1C8C2B5197B400D3B7E4 /* BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB1C8B2B5197B400D3B7E4 /* BaseURL.swift */; };
+		45D6694A2B51818900A4BEE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D669492B51818900A4BEE1 /* AppDelegate.swift */; };
+		45D6694C2B51818900A4BEE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D6694B2B51818900A4BEE1 /* SceneDelegate.swift */; };
+		45D669512B51818900A4BEE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D6694F2B51818900A4BEE1 /* Main.storyboard */; };
+		45D669542B51818900A4BEE1 /* Mazaady_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45D669522B51818900A4BEE1 /* Mazaady_Task.xcdatamodeld */; };
+		45D669562B51818A00A4BEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45D669552B51818A00A4BEE1 /* Assets.xcassets */; };
+		45D669592B51818A00A4BEE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D669572B51818A00A4BEE1 /* LaunchScreen.storyboard */; };
+		45D669642B5182E500A4BEE1 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D669632B5182E400A4BEE1 /* K.swift */; };
+		45D669682B51845A00A4BEE1 /* Network Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D669672B51845A00A4BEE1 /* Network Manager.swift */; };
+		45D6696F2B51864300A4BEE1 /* CategoryFilteringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D6696D2B51864300A4BEE1 /* CategoryFilteringViewController.swift */; };
+		45D669702B51864300A4BEE1 /* CategoryFilteringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D6696E2B51864300A4BEE1 /* CategoryFilteringViewController.xib */; };
+		45D669722B5186A200A4BEE1 /* CategoryFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D669712B5186A200A4BEE1 /* CategoryFilterViewModel.swift */; };
+		45D669752B51871B00A4BEE1 /* MainCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D669742B51871B00A4BEE1 /* MainCategory.swift */; };
+		45D669772B51875000A4BEE1 /* SubCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D669762B51875000A4BEE1 /* SubCategory.swift */; };
+		BB22920DFE6FB464588B3984 /* Pods_Mazaady_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB1EC75BF92C00534549D5A /* Pods_Mazaady_Task.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		452BA0D42B53422400C4CCB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D6693E2B51818900A4BEE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45D669452B51818900A4BEE1;
+			remoteInfo = "Mazaady Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EB1EC75BF92C00534549D5A /* Pods_Mazaady_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mazaady_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		452BA0BF2B51AE5D00C4CCB9 /* Category+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+Extenstion.swift"; sourceTree = "<group>"; };
+		452BA0C22B51E04B00C4CCB9 /* BorderLabelUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderLabelUIView.swift; sourceTree = "<group>"; };
+		452BA0C42B51E3F900C4CCB9 /* SwiftMenu+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftMenu+Extension.swift"; sourceTree = "<group>"; };
+		452BA0C62B51F40C00C4CCB9 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		452BA0C82B52E97900C4CCB9 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		452BA0CA2B532EE400C4CCB9 /* Option+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Option+Extension.swift"; sourceTree = "<group>"; };
+		452BA0D02B53422300C4CCB9 /* Mazaady TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mazaady TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		452BA0D22B53422400C4CCB9 /* Mazaady_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mazaady_TaskTests.swift; sourceTree = "<group>"; };
+		452BA0DB2B5346F600C4CCB9 /* Mazaady_UnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mazaady_UnitTest.swift; sourceTree = "<group>"; };
+		45CB1C8B2B5197B400D3B7E4 /* BaseURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURL.swift; sourceTree = "<group>"; };
+		45D669462B51818900A4BEE1 /* Mazaady Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mazaady Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D669492B51818900A4BEE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45D6694B2B51818900A4BEE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45D669502B51818900A4BEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45D669532B51818900A4BEE1 /* Mazaady_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mazaady_Task.xcdatamodel; sourceTree = "<group>"; };
+		45D669552B51818A00A4BEE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45D669582B51818A00A4BEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45D6695A2B51818A00A4BEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D669632B5182E400A4BEE1 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		45D669672B51845A00A4BEE1 /* Network Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Manager.swift"; sourceTree = "<group>"; };
+		45D6696D2B51864300A4BEE1 /* CategoryFilteringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFilteringViewController.swift; sourceTree = "<group>"; };
+		45D6696E2B51864300A4BEE1 /* CategoryFilteringViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryFilteringViewController.xib; sourceTree = "<group>"; };
+		45D669712B5186A200A4BEE1 /* CategoryFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFilterViewModel.swift; sourceTree = "<group>"; };
+		45D669742B51871B00A4BEE1 /* MainCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCategory.swift; sourceTree = "<group>"; };
+		45D669762B51875000A4BEE1 /* SubCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategory.swift; sourceTree = "<group>"; };
+		6AB92EF80786316343B1DFE4 /* Pods-Mazaady Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mazaady Task.debug.xcconfig"; path = "Target Support Files/Pods-Mazaady Task/Pods-Mazaady Task.debug.xcconfig"; sourceTree = "<group>"; };
+		A75612FB1FCBC78463E41120 /* Pods-Mazaady Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mazaady Task.release.xcconfig"; path = "Target Support Files/Pods-Mazaady Task/Pods-Mazaady Task.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		452BA0CD2B53422300C4CCB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D669432B51818900A4BEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB22920DFE6FB464588B3984 /* Pods_Mazaady_Task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2E18385025C2A5E04BAC41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EB1EC75BF92C00534549D5A /* Pods_Mazaady_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		452BA0BD2B51AE0B00C4CCB9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				45D669632B5182E400A4BEE1 /* K.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		452BA0BE2B51AE2500C4CCB9 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				452BA0BF2B51AE5D00C4CCB9 /* Category+Extenstion.swift */,
+				452BA0CA2B532EE400C4CCB9 /* Option+Extension.swift */,
+				452BA0C82B52E97900C4CCB9 /* String+Extension.swift */,
+				452BA0C42B51E3F900C4CCB9 /* SwiftMenu+Extension.swift */,
+				452BA0C62B51F40C00C4CCB9 /* UIViewController+Extension.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		452BA0C12B51E00D00C4CCB9 /* CustomUIClass */ = {
+			isa = PBXGroup;
+			children = (
+				452BA0C22B51E04B00C4CCB9 /* BorderLabelUIView.swift */,
+			);
+			path = CustomUIClass;
+			sourceTree = "<group>";
+		};
+		452BA0D12B53422400C4CCB9 /* Mazaady TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				452BA0D22B53422400C4CCB9 /* Mazaady_TaskTests.swift */,
+				452BA0DB2B5346F600C4CCB9 /* Mazaady_UnitTest.swift */,
+			);
+			path = "Mazaady TaskTests";
+			sourceTree = "<group>";
+		};
+		45D6693D2B51818900A4BEE1 = {
+			isa = PBXGroup;
+			children = (
+				45D669482B51818900A4BEE1 /* Mazaady Task */,
+				452BA0D12B53422400C4CCB9 /* Mazaady TaskTests */,
+				45D669472B51818900A4BEE1 /* Products */,
+				46A2BB6FEB8D49369006CE31 /* Pods */,
+				0A2E18385025C2A5E04BAC41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45D669472B51818900A4BEE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45D669462B51818900A4BEE1 /* Mazaady Task.app */,
+				452BA0D02B53422300C4CCB9 /* Mazaady TaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45D669482B51818900A4BEE1 /* Mazaady Task */ = {
+			isa = PBXGroup;
+			children = (
+				45D669602B5181F500A4BEE1 /* Core */,
+				45D669612B51820C00A4BEE1 /* Resouces */,
+				45D669622B5182B000A4BEE1 /* Utilites */,
+				45D669732B5186C100A4BEE1 /* Models */,
+				45D669652B5183FE00A4BEE1 /* Services */,
+				45D669692B51846100A4BEE1 /* Scenes */,
+				45D6695A2B51818A00A4BEE1 /* Info.plist */,
+				45D669522B51818900A4BEE1 /* Mazaady_Task.xcdatamodeld */,
+			);
+			path = "Mazaady Task";
+			sourceTree = "<group>";
+		};
+		45D669602B5181F500A4BEE1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				45D669492B51818900A4BEE1 /* AppDelegate.swift */,
+				45D6694B2B51818900A4BEE1 /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		45D669612B51820C00A4BEE1 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				45D6694F2B51818900A4BEE1 /* Main.storyboard */,
+				45D669572B51818A00A4BEE1 /* LaunchScreen.storyboard */,
+				45D669552B51818A00A4BEE1 /* Assets.xcassets */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		45D669622B5182B000A4BEE1 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				452BA0C12B51E00D00C4CCB9 /* CustomUIClass */,
+				452BA0BD2B51AE0B00C4CCB9 /* Constants */,
+				452BA0BE2B51AE2500C4CCB9 /* Extenstions */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		45D669652B5183FE00A4BEE1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				45D669662B51842A00A4BEE1 /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		45D669662B51842A00A4BEE1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				45D669672B51845A00A4BEE1 /* Network Manager.swift */,
+				45CB1C8B2B5197B400D3B7E4 /* BaseURL.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		45D669692B51846100A4BEE1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				45D6696A2B51849F00A4BEE1 /* Category Filtering */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		45D6696A2B51849F00A4BEE1 /* Category Filtering */ = {
+			isa = PBXGroup;
+			children = (
+				45D6696C2B5185EC00A4BEE1 /* CategoryFilteringView */,
+				45D6696B2B51857900A4BEE1 /* CategoryFilteringViewModel  */,
+			);
+			path = "Category Filtering";
+			sourceTree = "<group>";
+		};
+		45D6696B2B51857900A4BEE1 /* CategoryFilteringViewModel  */ = {
+			isa = PBXGroup;
+			children = (
+				45D669712B5186A200A4BEE1 /* CategoryFilterViewModel.swift */,
+			);
+			path = "CategoryFilteringViewModel ";
+			sourceTree = "<group>";
+		};
+		45D6696C2B5185EC00A4BEE1 /* CategoryFilteringView */ = {
+			isa = PBXGroup;
+			children = (
+				45D6696D2B51864300A4BEE1 /* CategoryFilteringViewController.swift */,
+				45D6696E2B51864300A4BEE1 /* CategoryFilteringViewController.xib */,
+			);
+			path = CategoryFilteringView;
+			sourceTree = "<group>";
+		};
+		45D669732B5186C100A4BEE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45D669742B51871B00A4BEE1 /* MainCategory.swift */,
+				45D669762B51875000A4BEE1 /* SubCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46A2BB6FEB8D49369006CE31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AB92EF80786316343B1DFE4 /* Pods-Mazaady Task.debug.xcconfig */,
+				A75612FB1FCBC78463E41120 /* Pods-Mazaady Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		452BA0CF2B53422300C4CCB9 /* Mazaady TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452BA0D62B53422400C4CCB9 /* Build configuration list for PBXNativeTarget "Mazaady TaskTests" */;
+			buildPhases = (
+				452BA0CC2B53422300C4CCB9 /* Sources */,
+				452BA0CD2B53422300C4CCB9 /* Frameworks */,
+				452BA0CE2B53422300C4CCB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				452BA0D52B53422400C4CCB9 /* PBXTargetDependency */,
+			);
+			name = "Mazaady TaskTests";
+			productName = "Mazaady TaskTests";
+			productReference = 452BA0D02B53422300C4CCB9 /* Mazaady TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45D669452B51818900A4BEE1 /* Mazaady Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45D6695D2B51818A00A4BEE1 /* Build configuration list for PBXNativeTarget "Mazaady Task" */;
+			buildPhases = (
+				D56ED36DFC7F3B724DE51CF7 /* [CP] Check Pods Manifest.lock */,
+				45D669422B51818900A4BEE1 /* Sources */,
+				45D669432B51818900A4BEE1 /* Frameworks */,
+				45D669442B51818900A4BEE1 /* Resources */,
+				925C375725765E3B4B6C6130 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mazaady Task";
+			productName = "Mazaady Task";
+			productReference = 45D669462B51818900A4BEE1 /* Mazaady Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45D6693E2B51818900A4BEE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					452BA0CF2B53422300C4CCB9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 45D669452B51818900A4BEE1;
+					};
+					45D669452B51818900A4BEE1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 45D669412B51818900A4BEE1 /* Build configuration list for PBXProject "Mazaady Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45D6693D2B51818900A4BEE1;
+			productRefGroup = 45D669472B51818900A4BEE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45D669452B51818900A4BEE1 /* Mazaady Task */,
+				452BA0CF2B53422300C4CCB9 /* Mazaady TaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		452BA0CE2B53422300C4CCB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D669442B51818900A4BEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D669592B51818A00A4BEE1 /* LaunchScreen.storyboard in Resources */,
+				45D669702B51864300A4BEE1 /* CategoryFilteringViewController.xib in Resources */,
+				45D669562B51818A00A4BEE1 /* Assets.xcassets in Resources */,
+				45D669512B51818900A4BEE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		925C375725765E3B4B6C6130 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mazaady Task/Pods-Mazaady Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mazaady Task/Pods-Mazaady Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mazaady Task/Pods-Mazaady Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56ED36DFC7F3B724DE51CF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mazaady Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		452BA0CC2B53422300C4CCB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452BA0D32B53422400C4CCB9 /* Mazaady_TaskTests.swift in Sources */,
+				452BA0DC2B5346F600C4CCB9 /* Mazaady_UnitTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D669422B51818900A4BEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452BA0C52B51E3F900C4CCB9 /* SwiftMenu+Extension.swift in Sources */,
+				45D669642B5182E500A4BEE1 /* K.swift in Sources */,
+				452BA0CB2B532EE400C4CCB9 /* Option+Extension.swift in Sources */,
+				452BA0C02B51AE5D00C4CCB9 /* Category+Extenstion.swift in Sources */,
+				45D669752B51871B00A4BEE1 /* MainCategory.swift in Sources */,
+				452BA0C72B51F40C00C4CCB9 /* UIViewController+Extension.swift in Sources */,
+				45D6694A2B51818900A4BEE1 /* AppDelegate.swift in Sources */,
+				45D669542B51818900A4BEE1 /* Mazaady_Task.xcdatamodeld in Sources */,
+				45D669772B51875000A4BEE1 /* SubCategory.swift in Sources */,
+				45D6696F2B51864300A4BEE1 /* CategoryFilteringViewController.swift in Sources */,
+				45CB1C8C2B5197B400D3B7E4 /* BaseURL.swift in Sources */,
+				45D669722B5186A200A4BEE1 /* CategoryFilterViewModel.swift in Sources */,
+				452BA0C32B51E04C00C4CCB9 /* BorderLabelUIView.swift in Sources */,
+				45D6694C2B51818900A4BEE1 /* SceneDelegate.swift in Sources */,
+				452BA0C92B52E97900C4CCB9 /* String+Extension.swift in Sources */,
+				45D669682B51845A00A4BEE1 /* Network Manager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		452BA0D52B53422400C4CCB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45D669452B51818900A4BEE1 /* Mazaady Task */;
+			targetProxy = 452BA0D42B53422400C4CCB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45D6694F2B51818900A4BEE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45D669502B51818900A4BEE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45D669572B51818A00A4BEE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45D669582B51818A00A4BEE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		452BA0D72B53422400C4CCB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8WX6XAJDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MustafaAdell.project.Mazaady-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mazaady Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mazaady Task";
+			};
+			name = Debug;
+		};
+		452BA0D82B53422400C4CCB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8WX6XAJDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MustafaAdell.project.Mazaady-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mazaady Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mazaady Task";
+			};
+			name = Release;
+		};
+		45D6695B2B51818A00A4BEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45D6695C2B51818A00A4BEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45D6695E2B51818A00A4BEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB92EF80786316343B1DFE4 /* Pods-Mazaady Task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8WX6XAJDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mazaady Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MustafaAdell.project.Mazaady-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45D6695F2B51818A00A4BEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A75612FB1FCBC78463E41120 /* Pods-Mazaady Task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8WX6XAJDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mazaady Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MustafaAdell.project.Mazaady-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		452BA0D62B53422400C4CCB9 /* Build configuration list for PBXNativeTarget "Mazaady TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452BA0D72B53422400C4CCB9 /* Debug */,
+				452BA0D82B53422400C4CCB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45D669412B51818900A4BEE1 /* Build configuration list for PBXProject "Mazaady Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D6695B2B51818A00A4BEE1 /* Debug */,
+				45D6695C2B51818A00A4BEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45D6695D2B51818A00A4BEE1 /* Build configuration list for PBXNativeTarget "Mazaady Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D6695E2B51818A00A4BEE1 /* Debug */,
+				45D6695F2B51818A00A4BEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45D669522B51818900A4BEE1 /* Mazaady_Task.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45D669532B51818900A4BEE1 /* Mazaady_Task.xcdatamodel */,
+			);
+			currentVersion = 45D669532B51818900A4BEE1 /* Mazaady_Task.xcdatamodel */;
+			path = Mazaady_Task.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45D6693E2B51818900A4BEE1 /* Project object */;
+}
